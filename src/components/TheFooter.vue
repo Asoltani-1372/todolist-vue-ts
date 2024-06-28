@@ -1,15 +1,17 @@
 <template>
-  <footer class="footer">
+  <footer class="footer custom-footer">
     <div class="content has-text-centered">
       <p>
-        Built with <a href="https://vuejs.org/">Vue</a> and <a href="https://bulma.io/">Bulma</a> by
-        <a href="https://www.bencodezen.io">Ben Hong</a>. <br /><a
-          href="https://github.com/bencodezen/typescript-and-vue-workshop"
-          >Source Code</a
-        >
+        this is app for manage todo lists
       </p>
     </div>
   </footer>
 </template>
 
-<style></style>
+<style scoped>
+.custom-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+</style>
